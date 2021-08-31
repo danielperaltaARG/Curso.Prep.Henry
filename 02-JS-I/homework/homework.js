@@ -35,9 +35,10 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-  return x + y
-   
+  return x + y 
+
 }
+
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: 
@@ -66,13 +67,14 @@ function sonIguales(x, y) {
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: 
+  if (str1.length == str2.length) {return true;} else {return false;}
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: if(num<90) { return true;} else { return false;}
 }
 
 function mayorQueCincuenta(num) {
