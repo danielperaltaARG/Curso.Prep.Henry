@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
+  {return str};
 }
 
 function suma(x, y) {
@@ -54,27 +54,32 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código: 
-  return x / y
+ {return x/y}
+
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
-   if (x === y){return true;} else {return false;} 
+  // Tu código: 
+  {return x === y;}
+
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código: 
-  if (str1.length == str2.length) {return true;} else {return false;}
+   {return str1.length === str2.length;}
+ 
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código: if(num<90) { return true;} else { return false;}
+  // Tu código: 
+  {return num < 90;} 
+
 }
 
 function mayorQueCincuenta(num) {
